@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@400;500;600&display=swap');
 
 :root{
-    --primcolor: rgb(0, 125, 0);
+    --primcolor: yellow
 }
 
 *, ::after, ::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -24,7 +23,7 @@ body{
 }
 section{
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     width: 100%;
 }
 
@@ -79,10 +78,11 @@ a{
     place-content: center;
 }
 .title-large{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
-    font-family: "Bree Serif", sans-serif;
-    color: green;
+    font-family: "Akshar", sans-serif;
+    color: #000;
+    text-transform: uppercase;
 }
 .title-medium{
     font-size: 2rem;
@@ -116,7 +116,7 @@ a{
 
 
 header{
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -196,17 +196,16 @@ nav{
 }
 .services-link:hover{
     background-color: var(--primcolor);
-    color: #FFF;
 }
 
 .hero-btn1{
     width: auto;
     height: auto;
     padding: .5rem 1rem;
-    background: linear-gradient(120deg, rgb(0, 148, 74), rgb(0, 175, 108));
-    color: #FFF;
+    background: yellow;
+    color: #000;
     border: none;
-    border-radius: 24px;
+    font-weight: 500;
 }
 
 #menu-alt{
@@ -250,7 +249,7 @@ footer{
     position: relative;
     margin-top: auto;
     padding: 2rem 1rem 0;
-    background: rgba(0, 0, 0, .15);
+    background: #222;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -282,8 +281,8 @@ footer{
     width: 100%;
     padding-right: .5rem;
     padding-bottom: .5rem;
-    border-bottom: 2px solid var(--primcolor);
-    color: var(--primcolor);
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -298,7 +297,7 @@ footer{
     position: relative;
     margin-top: 0.75rem;
     width: 100%;
-    color: darkslategray;
+    color: azure;
 }
 
 .footer-branding{
@@ -308,21 +307,21 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    color: var(--primcolor);
+    color: #FFF;
 }
 .footer-desc{
-    color: darkslategray;
+    color: azure;
     max-width: 75%;
 }
 
 .social-heading{
     min-width: 100px;
-    color: black;
+    color: #FFF;
 }
 .social{
     position: relative;
     width: 100%;
-    color: black;
+    color: #FFF;
     display: flex;
     flex-direction: row;
     align-items: center;
